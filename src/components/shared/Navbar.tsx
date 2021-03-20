@@ -71,7 +71,7 @@ const Navbar = () => {
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
 
-                <NavLink exact to="/" className="bg-green-500 text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" activeClassName="bg-green-500">
+                <NavLink exact to="/" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" activeClassName="bg-green-500">
                   Home
                 </NavLink>
                 <NavLink exact to="/about" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium" activeClassName="bg-green-500">
