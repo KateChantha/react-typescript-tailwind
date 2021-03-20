@@ -38,7 +38,7 @@ const Navbar = () => {
               </svg>
 
               {/* Menu open: "block", Menu closed: "hidden" */}
-              <svg className="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
 
@@ -242,7 +242,7 @@ const Navbar = () => {
       </div>
 
           {/* เมนูโหมด Mobile */}
-          <div className="sm:hidden block" id="mobile-menu">
+          <div className=" sm:hidden block" id="mobile-menu">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
               <NavLink exact to="/" className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium" >
