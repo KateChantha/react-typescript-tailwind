@@ -1,5 +1,6 @@
 import {Route, Switch} from 'react-router-dom';
 import FrontLayout from './components/layouts/FrontLayout';
+import Home from './pages/Home';
 
 const AppRoute = ({component: Component, layout: Layout, ...rest}: any) => (
   <Route {...rest} render={ props => (
@@ -10,7 +11,7 @@ const AppRoute = ({component: Component, layout: Layout, ...rest}: any) => (
 const Routes = () => {
   return (
     <Switch>
-      <AppRoute path="/" excact={true} layout={FrontLayout} component={xxx} />
+      <AppRoute path="/" excact={true} layout={FrontLayout} component={Home} />
     </Switch>
   )
 }
